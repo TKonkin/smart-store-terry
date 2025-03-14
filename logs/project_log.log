@@ -1,0 +1,7 @@
+2025-03-14 10:52:24.985 | INFO     | __main__:<module>:39 - Logging to file: logs\project_log.log
+2025-03-14 10:52:24.986 | INFO     | __main__:main:61 - STARTING logger.py
+2025-03-14 10:52:24.986 | INFO     | __main__:log_example:52 - This is an example info message.
+2025-03-14 10:52:24.986 | WARNING  | __main__:log_example:53 - This is an example warning message.
+2025-03-14 10:52:24.987 | ERROR    | __main__:log_example:54 - This is an example error message.
+2025-03-14 10:52:24.987 | INFO     | __main__:main:66 - View the log output at logs\project_log.log
+2025-03-14 10:52:24.987 | INFO     | __main__:main:67 - EXITING logger.py.
