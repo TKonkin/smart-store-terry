@@ -132,3 +132,8 @@ dtype: int64
 2025-03-26 10:21:30.845 | INFO     | __main__:main:190 - ==================================
 2025-03-26 10:21:30.845 | INFO     | __main__:main:191 - FINISHED prepare_sales_data.py
 2025-03-26 10:21:30.846 | INFO     | __main__:main:192 - ==================================
+2025-03-30 15:28:29.190 | INFO     | __main__:main:41 - Starting data preparation...
+2025-03-30 15:28:29.191 | INFO     | __main__:read_raw_data:26 - Reading raw data from C:\Projects\smart-store-terry\data\raw\customers_data.csv.
+2025-03-30 15:28:29.201 | INFO     | __main__:read_raw_data:26 - Reading raw data from C:\Projects\smart-store-terry\data\raw\products_data.csv.
+2025-03-30 15:28:29.204 | INFO     | __main__:read_raw_data:26 - Reading raw data from C:\Projects\smart-store-terry\data\raw\sales_data.csv.
+2025-03-30 15:28:29.207 | INFO     | __main__:main:45 - Data preparation complete.
