@@ -20,7 +20,9 @@ def create_schema(cursor: sqlite3.Cursor) -> None:
             CustomerID INTEGER PRIMARY KEY,
             Name TEXT,
             Region TEXT,
-            JoinDate TEXT
+            JoinDate TEXT,
+            LoyaltyPoints INTEGER,
+            PreferredContactMethod TEXT
         )
     """)
     
@@ -29,7 +31,9 @@ def create_schema(cursor: sqlite3.Cursor) -> None:
             productid INTEGER PRIMARY KEY,
             productname TEXT,
             category TEXT,
-            unitprice REAL
+            unitprice REAL,
+            stockquantity INTEGER,
+            subcategory TEXT
         )
     """)
     
@@ -38,10 +42,12 @@ def create_schema(cursor: sqlite3.Cursor) -> None:
             TransactionID INTEGER PRIMARY KEY,
             SaleDate TEXT,
             CustomerID INTEGER,
-            ProductID INTEGER,
+            productid INTEGER,
             StoreID INTEGER,
             CampaignID INTEGER,
             SaleAmount REAL,
+            DiscountPercent INTEGER,
+            State TEXT,
             FOREIGN KEY (CustomerID) REFERENCES customer (CustomerID),
             FOREIGN KEY (productid) REFERENCES product (productid)
         )

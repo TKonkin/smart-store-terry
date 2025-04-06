@@ -105,3 +105,8 @@ In Windows / PowerShell:
 ```shell
 py scripts\data_prep.py
 ```
+
+### Create and Populate DW Folder
+Design Schema
+Create and Populate Schema
+Verify Tables in SQLite Viewer
