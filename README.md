@@ -110,3 +110,14 @@ py scripts\data_prep.py
 Design Schema
 Create and Populate Schema
 Verify Tables in SQLite Viewer
+
+### Reporying with Power BI
+Setup BI environment
+
+Connect to data warehouse
+
+Query & aggregate data
+Create new query to display customer name vs total sales
+
+Create interactive visualizations
+There are 2 dashboards, correlating with P5/Tasks 5 & 6, respectively
