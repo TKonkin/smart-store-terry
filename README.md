@@ -111,7 +111,7 @@ Design Schema
 Create and Populate Schema
 Verify Tables in SQLite Viewer
 
-### Reporying with Power BI
+### Reporting with Power BI
 Setup BI environment
 
 Connect to data warehouse
@@ -121,3 +121,34 @@ Create new query to display customer name vs total sales
 
 Create interactive visualizations
 There are 2 dashboards, correlating with P5/Tasks 5 & 6, respectively
+
+### P6. BI Insights and Storytelling
+
+Section 1. The Business Goal
+Identify the products with the highest number of units sold.  This helps to determine which products are the best sellers in terms of volume, guiding inventory management and marketing strategies.
+
+Section 2. Data Source
+The data source is the smart_sales database, within the data warehouse dw.
+The columns used are:
+product/productid - the unique identifier for each product
+product/productname - the name associated with each product id
+sale/SaleQuantity - number of units sold in a transaction
+
+Section 3. Tools
+As there was no advanced (i.e., predictive) analytics required, Power BI was the only tool used for the project.
+
+Section 4. Workflow & Logic
+Descriptive dimensions: productid, productname
+Numeric metric: SaleQuantity
+Aggregations: sum
+Slicing: by product name
+Driildown: to month
+Workflow: Create calculated column of SaleQuantity and sum
+Output: Column chart + line chart + pie chart
+
+Section 5. Results
+Figure 1 displays a column chart of product name vs quantity, in decreasing order.  From the chart, the 2 lowest products are cable and football.
+Figure 2 displays the quantity by month of products cable & football only.  From the chart, football had slightly more consistent sales quantities throughout the year.
+
+
+
