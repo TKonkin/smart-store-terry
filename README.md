@@ -124,18 +124,17 @@ There are 2 dashboards, correlating with P5/Tasks 5 & 6, respectively
 
 ### P6. BI Insights and Storytelling
 
-Section 1. The Business Goal
+Section 1. The Business Goal (PRODUCTS_TOP_SELLERS_BY_QUANTITY)
 Identify the products with the highest number of units sold.  This helps to determine which products are the best sellers in terms of volume, guiding inventory management and marketing strategies.
 
 Section 2. Data Source
 The data source is the smart_sales database, within the data warehouse dw.
 The columns used are:
-product/productid - the unique identifier for each product
-product/productname - the name associated with each product id
-sale/SaleQuantity - number of units sold in a transaction
+product/productname - the name associated with each unique product id
+sale/SaleAmount - number of units sold in a transaction
 
 Section 3. Tools
-As there was no advanced (i.e., predictive) analytics required, Power BI was the only tool used for the project.
+As there was no advanced analytics required, Power BI has sufficient capabilities to be the only tool used for the project.
 
 Section 4. Workflow & Logic
 Descriptive dimensions: productid, productname
@@ -143,12 +142,23 @@ Numeric metric: SaleQuantity
 Aggregations: sum
 Slicing: by product name
 Driildown: to month
-Workflow: Create calculated column of SaleQuantity and sum
+Workflow: Create the calculated column sale/SaleQuantity and aggregate using sum
 Output: Column chart + line chart + pie chart
 
 Section 5. Results
-Figure 1 displays a column chart of product name vs quantity, in decreasing order.  From the chart, the 2 lowest products are cable and football.
-Figure 2 displays the quantity by month of products cable & football only.  From the chart, football had slightly more consistent sales quantities throughout the year.
+Figure 1 displays a column chart of SaleQuantity by product name, in decreasing order.  From the chart, the 2 lowest products by quantity sold are cable and football.
+Figure 2 displays the quantity by month of the products cable & football only.  From the chart, football had more consistent sales than cable.
+Figure 3 displays the relationship of sales quantity for cable and football.  From the chart, the proportion of sales quantity for football is noticeably greater than for cable.
+
+Section 6. Suggested Business Action
+It is suggested to conduct further analysis of both cable and football, with the objective of either increased marketing or discontinuation.
+Additional analysis would consider manufacturing cost, profit, profit margin, and sales revenue.
+
+Section 7. Challenges
+Minimal challenges due to both the level of analytics needed, and the functionality of the BI tool.
+The data type in the SaleDate column was reformatted to date, for creating time charts.
+
+
 
 
 
