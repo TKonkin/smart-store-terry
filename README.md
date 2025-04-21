@@ -122,7 +122,7 @@ Create new query to display customer name vs total sales
 Create interactive visualizations
 There are 2 dashboards, correlating with P5/Tasks 5 & 6, respectively
 
-### P6. BI Insights and Storytelling
+### Project P6. BI Insights and Storytelling
 
 Section 1. The Business Goal (PRODUCTS_TOP_SELLERS_BY_QUANTITY)
 Identify the products with the highest number of units sold.  This helps to determine which products are the best sellers in terms of volume, guiding inventory management and marketing strategies.
@@ -131,7 +131,7 @@ Section 2. Data Source
 The data source is the smart_sales database, within the data warehouse dw.
 The columns used are:
 product/productname - the name associated with each unique product id
-sale/SaleAmount - number of units sold in a transaction
+sale/SaleAmount - total revenue from a transaction
 
 Section 3. Tools
 As there was no advanced analytics required, Power BI has sufficient capabilities to be the only tool used for the project.
@@ -158,7 +158,23 @@ Section 7. Challenges
 Minimal challenges due to both the level of analytics needed, and the functionality of the BI tool.
 The data type in the SaleDate column was reformatted to date, for creating time charts.
 
+### P7. BI Insights and Storytelling
 
+Section 1. The Business Goal (2-SALES_GROWTH_OVER_TIME)
+Analyze sales growth over time by comparing the total sales amount in different time periods. This can help identify trends and assess the effectiveness of marketing strategies or other business initiatives.
 
+Section 2. Data Source
+The data source is the smart_sales database, within the data warehouse dw.
+The columns used are:
+sale/SaleDate - date of the transaction
+sale/SaleAmount - total revenue from a transaction
 
+Section 3. Tools Used
+As there was no advanced analytics required, Power BI has sufficient capabilities to be the only tool used for the project.
+
+Section 4. Workflow & Logic
+Section 5. Results (narrative + visualizations)
+Section 6. Suggested Business Action
+Section 7. Challenges
+Section 8. Ethical Considerations
 
