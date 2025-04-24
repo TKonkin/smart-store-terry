@@ -183,7 +183,7 @@ Output: combination chart, column chart
 
 Section 5. Results (narrative + visualizations)
 Figure 1 displays a combination chart of sales by month (column) and the change in sales by month (line).  A matrix of the sales totals is also displayed to the immediate left of the chart.  From the line portion of the chart, the largest changes in sales occur arounf the February, July, and September time periods. 
-Figure 2 is a waterfall chart, displaying the percent change in sales over month, with positive & negative change segregated by color.  A matrix of the change values by month and product is also displayed to the left of the chart.  From the chart, August and October/November contributed the majority of the sales decrease for the year.  
+Figure 2 is a waterfall chart, displaying the percent change in sales over month, with positive & negative change segregated by color.  A matrix of the change values by month is also displayed to the left of the chart.  From the chart, August and October/November contributed the majority of the sales decrease for the year.  
 
 Section 6. Suggested Business Action
 It is suggested to focus the Company's marketing strategy around the fall months, with the objective of addressing the decrease in sales.  This would include a focus on those products that comprise the largest portions of the sales declines (e.g., laptop).
